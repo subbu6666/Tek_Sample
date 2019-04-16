@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+ <script src= "TT_login_paswd_hide.js"   ></script>
+ 
+ 
+ <style>
+ 
+ .a {border : 1px rounded black;
+  height:30px; width:300px; margin-left :150px; background-color : #80bfff}
+body{text-align: center ;}
+
+.bdy{ border : 1px solid black; text-align:center;  background-color : rgb(7, 50, 66);
+ margin-top: 60px; padding : 50px; width : 600px;  margin-left : 350px; }
+ 
+ .b {height: 30px; }
+ p { color: white;}
+ 
+ #logo { background-color : white;
+         
+ }
+ 
+ 
+ </style>
+<body >
+<div class ="bdy">
+ <img id ="logo" src="logo.png" alt="Tektree"  height="120px"> 
+
+<form action="Login" method="post" target="_self">
+<div >
+<h3 class = 'a'>Welcome to Tektree Login portal </h3>
+
+<p class='b'><strong>UserName &nbsp &nbsp : &nbsp&nbsp&nbsp  </strong> <input type="text" name = "name" placeholder= "Enter Your UserName" ></p>
+
+<p><strong> Password  &nbsp &nbsp &nbsp &nbsp: </strong>  &nbsp &nbsp <input type="password" name = "pwd" placeholder= "Enter password here" id="myInput"></p>
+<input type="submit" value = "Login" style = "margin-top:10px; cursor : pointer; margin-left : 230px;  ">
+
+</div>
+</form>
+</div>
+
+</body>
+</html>
